@@ -1,0 +1,56 @@
+﻿.loaded {
+    #background {
+        background-image: url('../images/background.jpg');
+    }
+
+    #grid {
+        background-image: url('../images/grid_375.png');
+    }
+
+    #silhouette {
+        background-image: url('../images/silhouette.png');
+    }
+
+    #begin {
+        display: block;
+    }
+
+    #trump {
+        .eye {
+            background-image: url('../images/eye.png');
+        }
+
+        .nose {
+            .inner {
+                background-image: url('../images/nose.png');
+            }
+        }
+
+        .face {
+            background-image: url('../images/face.png');
+        }
+    }
+}
+
+.ready {
+    body {
+        background-image: url('../images/body.jpg');
+    }
+}
+
+@media (min-height:376px) {
+    .loaded {
+        #grid {
+            background-image: url('../images/grid_768.png');
+        }
+    }
+}
+
+
+@media (min-height:769px) {
+    .loaded {
+        #grid {
+            background-image: url('../images/grid_950.png');
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.vs/
+packages/
+dist/
+bower_components/
+node_modules/
+PublishProfiles/
+bin/
+obj/
+*.bak
+*.zip
